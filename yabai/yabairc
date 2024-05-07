@@ -79,6 +79,7 @@ yabai -m rule --add app="^(Code)$" space=^9
 yabai -m rule --add app="^(Raycast|Calculator|Software Update|Dictionary|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|App Store|Clock|Installer)$" manage=off
 yabai -m rule --add label="Small windows" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="Android Commit" app="Android Studio" title="Commit Changes" manage=off
+yabai -m rule --add app="Slack" title="Huddle with" manage=off
 yabai -m rule --add app="Android Studio" title="Create New Branch" manage=off
 yabai -m rule --add app="Android Studio" title="Add File to Git" manage=off
 yabai -m rule --add app="Android Studio" title="Merge Conflicts" manage=off
