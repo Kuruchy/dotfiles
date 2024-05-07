@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DESIRED_SPACES_PER_DISPLAY=10
+DESIRED_SPACES_PER_DISPLAY=9
 CURRENT_SPACES="$(yabai -m query --displays spaces | jq -r '.[].spaces | @sh')"
 
 DELTA=0
