@@ -83,6 +83,7 @@ yabai -m rule --add app="Slack" title="Huddle with" manage=off
 yabai -m rule --add app="Android Studio" title="Create New Branch" manage=off
 yabai -m rule --add app="Android Studio" title="Add File to Git" manage=off
 yabai -m rule --add app="Android Studio" title="Conflicts" manage=off
+yabai -m rule --add app="Android Studio" title="Merge Revisions for" manage=off
 yabai -m rule --add app="Android Studio" title="Rename" manage=off
 yabai -m rule --add app="Android Studio" title="Delete" manage=off
 yabai -m rule --add app="Android Studio" title="Uses Detected" manage=off
