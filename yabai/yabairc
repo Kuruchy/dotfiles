@@ -51,26 +51,22 @@ function setup_space {
 }
 
 setup_space 1 Terminal
-setup_space 2 General
+setup_space 2 Daily
 setup_space 3 Slack
-setup_space 4 Extra
-setup_space 5 Notion
+setup_space 4 Colab
+setup_space 5 Code
 setup_space 6 Android
-setup_space 7 Chrome
-setup_space 8 Spotify
-setup_space 9 Code
+setup_space 7 Spotify
 
 
 # Assign apps to specific spaces
 yabai -m rule --add app="^(iTerm)$" space=^1
 yabai -m rule --add app="^(Calendar | Mail | Jira)$" space=^2
 yabai -m rule --add app="^(Slack)$" space=^3
-yabai -m rule --add app="^(Chrome)$" space=^4
-yabai -m rule --add app="^(Notion)$" space=^5
+yabai -m rule --add app="^(Chrome | Github | Notion)$" space=^4
+yabai -m rule --add app="^(Code)$" space=^5
 yabai -m rule --add app="^(Android Studio)$" space=^6
-yabai -m rule --add app="^(Chrome | Github)$" space=^7
-yabai -m rule --add app="^(Spotify)$" space=^8
-yabai -m rule --add app="^(Code)$" space=^9
+yabai -m rule --add app="^(Spotify)$" space=^7
 
 # https://github.com/koekeishiya/yabai/issues/2170
 # yabai -m rule --add app=".*" sub-layer=normal
