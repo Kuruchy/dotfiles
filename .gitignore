@@ -4,4 +4,4 @@ gh-copilot/
 github-copilot/
 iterm2/
 pip/
-raycast/extensions/node_modules
+raycast/extensions/*
