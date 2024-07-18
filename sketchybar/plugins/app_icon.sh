@@ -86,6 +86,10 @@ case "$1" in
   	then
 	 RESULT=$ICON_GITHUB
 	fi
+	if grep -q "Notion" <<< $2;
+  	then
+	 RESULT=$ICON_NOTION
+	fi
 	;;
 "Firefox")
 	RESULT=$ICON_FIREFOX

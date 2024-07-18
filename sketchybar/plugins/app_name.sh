@@ -27,6 +27,10 @@ case "$1" in
   	then
 	 RESULT="Github"
 	fi
+	if grep -q "Notion" <<< $2;
+  	then
+	 RESULT="Notion"
+	fi
 	;;
 "Terminal" | "Warp" | "iTerm2")
     RESULT="iTerm2"
