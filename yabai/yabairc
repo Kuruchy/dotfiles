@@ -72,7 +72,7 @@ yabai -m rule --add app="^(Spotify)$" space=^7
 # yabai -m rule --add app=".*" sub-layer=normal
 
 # Manage apps and windows
-yabai -m rule --add app="^(Raycast|Calculator|Software Update|Dictionary|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|App Store|Clock|Installer)$" manage=off
+yabai -m rule --add app="^(Raycast|Calculator|Software Update|Dictionary|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|App Store|Clock|Installer|Activity Monitor)$" manage=off
 yabai -m rule --add label="Small windows" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="Android Commit" app="Android Studio" title="Commit Changes" manage=off
 yabai -m rule --add app="Slack" title="Huddle with" manage=off
@@ -87,7 +87,6 @@ yabai -m rule --add app="Android Studio" title="Push Commits" manage=off
 yabai -m rule --add app="Android Studio" title="Choose Process" manage=off
 yabai -m rule --add label="Mail New Message" app="^Mail$" title="(New Message)" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
-yabai -m rule --add label="Activity Windows" title="^Activity$" manage=off
 yabai -m rule --add app="^IINA$" sticky=on manage=off
 
 # Apply rules to existing windows
